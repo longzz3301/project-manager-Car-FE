@@ -1,0 +1,63 @@
+.login-background {
+    display: flex;
+    /* width: 100vh; */
+    height: 100vh;
+
+
+    justify-content: center;
+    align-items: center;
+
+    flex-shrink: 0;
+    background-color: whitesmoke;
+
+
+}
+
+
+
+
+
+
+#components-form-demo-normal-login .login-form {
+    max-width: 300px;
+}
+
+#components-form-demo-normal-login .login-form-forgot {
+    float: right;
+}
+
+#components-form-demo-normal-login .ant-col-rtl .login-form-forgot {
+    float: left;
+}
+
+#components-form-demo-normal-login .login-form-button {
+    width: 100%;
+}
+
+
+
+
+.login-background .picture {
+    background-image: url("../image/svg/loadingPages.png");
+    
+
+    width: 480px;
+    height: 550px;
+    background-size: 480px 550px;
+
+    background-repeat: no-repeat;
+
+}
+
+.login-background .FormLogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 480px;
+    height: 550px;
+    /* margin-top: 75px;
+    margin-left: 20px; */
+    background-color: white;
+    /* border-radius:10px ; */
+    order: 1;
+}

@@ -1,0 +1,49 @@
+.register-background {
+    display: flex ;
+    width: 100%; 
+    height: 100vh; 
+
+    justify-content: center; 
+    align-items: center;
+    background-color: whitesmoke;
+    gap: 30px;
+}
+
+.IconRegister {
+    background-image: url('../image/svg/Frame.png') ;
+    width: 500px;
+    height: 500px;
+    background-size: 500px 470px;
+    background-repeat: no-repeat;
+
+}
+
+.formRegister {
+    background-color: white;
+    padding: 30px 50px 10px 50px;
+    /* padding: 70px 30px 30px 30px; */
+    /* margin-bottom: 30px; */
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    
+   
+}
+
+#components-form-demo-normal-login .login-form {
+    max-width: 300px;
+  }
+  #components-form-demo-normal-login .login-form-forgot {
+    float: right;
+  }
+  #components-form-demo-normal-login .ant-col-rtl .login-form-forgot {
+    float: left;
+  }
+  #components-form-demo-normal-login .login-form-button {
+    width: 100%;
+  }
+
+
+
+
+
